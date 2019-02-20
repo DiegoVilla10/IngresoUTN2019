@@ -1,29 +1,25 @@
 function Mostrar()
 {
 //tomo el mes
-var mesDelAño = document.getElementById('mes').value;
+var mesDelAnio = document.getElementById('mes').value;
 
-swtich(mesDelAño) {
+switch (mesDelAnio) {
 
 	case "Enero":
-	if(mesDelAño = "Enero"){
-	alert("que comiences bien el año!!!");
-	break}
+	alert("¡¡¡Que comiences bien el año!!!");
+	break;
 	case "Marzo":
-	if(mesDelAño = "Marzo"){
-	alert("que comiences bien el año!!!")
+	alert("¡¡¡A clases!!!")
 	break;
-	}
 	case "Julio":
-	if(mesDelAño = "Julio"){
-	alert("se vienen las vacaciones!!!");
+	alert("¡¡¡Se vienen las vacaciones!!!");
 	break;
-	}
 	case "Diciembre":
-	if(mesDelAño = "Diciembre"){
-	alert("Felices fiesta!!!");
-	break;}
+	alert("¡¡¡Felices fiesta!!!");
+	break;
+
 }
+
 
 
 }//FIN DE LA FUNCIÓN
